@@ -1,6 +1,6 @@
 import { useState } from "react";
 export default function Todo() {
-  const [tasks, setTasks] = useState(['eat','shower','take out trash']);
+  const [tasks, setTasks] = useState(["😊",]);
   const [newTask, setNewTask] = useState("");
   function handleInputChange(event) {
     setNewTask(event.target.value)
